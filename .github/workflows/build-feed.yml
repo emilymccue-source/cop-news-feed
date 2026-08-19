@@ -1,0 +1,65 @@
+name: Build feed
+
+on:
+  schedule:
+    # Every 6 hours. GitHub runs scheduled jobs in UTC and may delay them a few
+    # minutes when the platform is busy; fine for stories that publish weekly.
+    - cron: "17 */6 * * *"
+  # Lets you run it by hand from the Actions tab, which is how you'll test it.
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+# Never let two runs write the feed at the same time.
+concurrency:
+  group: build-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run the offline tests
+        # Optional file. If you added test_scrape.py, a failure here stops the
+        # run before a bad feed reaches the screens. If you skipped it, fine.
+        run: |
+          if [ -f test_scrape.py ]; then
+            python test_scrape.py
+          else
+            echo "test_scrape.py not present; skipping tests."
+          fi
+
+      - name: Scrape the archive and build the feed
+        env:
+          OUT_DIR: .
+          OUT_FILE: feed.xml
+          STATE_FILE: state/seen_stories.json
+          FEED_SELF_URL: https://emilymccue-source.github.io/cop-news-feed/feed.xml
+          MAX_ITEMS: "50"
+        run: python scrape.py
+
+      - name: Commit the updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed.xml state/seen_stories.json
+          if git diff --staged --quiet; then
+            echo "No new stories; nothing to commit."
+          else
+            git commit -m "Update feed ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
