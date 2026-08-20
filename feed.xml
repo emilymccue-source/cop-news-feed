@@ -5,10 +5,20 @@
     <link>https://www.conocophillips.com/spiritnow/</link>
     <description>Feature stories and employee profiles from the ConocoPhillips spiritnow archive.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2026 13:14:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 19:03:48 +0000</lastBuildDate>
     <ttl>60</ttl>
     <generator>cop-news-feed</generator>
     <atom:link href="https://emilymccue-source.github.io/cop-news-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Buraligim Weiber connects culture with STEM</title>
+      <link>https://www.conocophillips.com/spiritnow/story/community-roots-buraligim-weiber-connects-culture-with-stem/</link>
+      <guid isPermaLink="true">https://www.conocophillips.com/spiritnow/story/community-roots-buraligim-weiber-connects-culture-with-stem/</guid>
+      <description>Award-winning initiative in Central Queensland is helping young people build confidence while exploring science, sustainability and Indigenous perspectives</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 -0400</pubDate>
+      <enclosure url="https://static.conocophillips.com/files/spiritnow/wide-med-aep-awards-chantale-linda.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://static.conocophillips.com/files/spiritnow/wide-med-aep-awards-chantale-linda.jpg" medium="image" />
+      <media:thumbnail url="https://static.conocophillips.com/files/spiritnow/wide-med-aep-awards-chantale-linda.jpg" />
+    </item>
     <item>
       <title>Standing behind those who serve</title>
       <link>https://www.conocophillips.com/spiritnow/story/when-duty-calls-standing-behind-those-who-serve/</link>
