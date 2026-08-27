@@ -5,10 +5,20 @@
     <link>https://www.conocophillips.com/spiritnow/</link>
     <description>Feature stories and employee profiles from the ConocoPhillips spiritnow archive.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2026 09:56:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 22:24:24 +0000</lastBuildDate>
     <ttl>60</ttl>
     <generator>cop-news-feed</generator>
     <atom:link href="https://emilymccue-source.github.io/cop-news-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing the next generation of technical talent</title>
+      <link>https://www.conocophillips.com/spiritnow/story/starting-strong-developing-the-next-generation-of-technical-talent/</link>
+      <guid isPermaLink="true">https://www.conocophillips.com/spiritnow/story/starting-strong-developing-the-next-generation-of-technical-talent/</guid>
+      <description>Accelerate Rotation Program helps new engineers and geoscientists get up to speed</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 -0400</pubDate>
+      <enclosure url="https://static.conocophillips.com/files/spiritnow/wide-med-copy-next-to-turbine.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://static.conocophillips.com/files/spiritnow/wide-med-copy-next-to-turbine.jpg" medium="image" />
+      <media:thumbnail url="https://static.conocophillips.com/files/spiritnow/wide-med-copy-next-to-turbine.jpg" />
+    </item>
     <item>
       <title>Buraligim Weiber connects culture with STEM</title>
       <link>https://www.conocophillips.com/spiritnow/story/community-roots-buraligim-weiber-connects-culture-with-stem/</link>
