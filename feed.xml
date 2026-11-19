@@ -5,10 +5,20 @@
     <link>https://www.conocophillips.com/spiritnow/</link>
     <description>Feature stories and employee profiles from the ConocoPhillips spiritnow archive.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 07:35:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 20:45:00 +0000</lastBuildDate>
     <ttl>60</ttl>
     <generator>cop-news-feed</generator>
     <atom:link href="https://emilymccue-source.github.io/cop-news-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seven technicians set the standard for Global Aviation maintenance</title>
+      <link>https://www.conocophillips.com/spiritnow/story/the-craft-behind-the-aircraft-seven-technicians-set-the-standard-for-global-aviation-maintenance/</link>
+      <guid isPermaLink="true">https://www.conocophillips.com/spiritnow/story/the-craft-behind-the-aircraft-seven-technicians-set-the-standard-for-global-aviation-maintenance/</guid>
+      <description>Historic FlightSafety achievement highlights technical excellence supporting safe, reliable ERJ-145XR Air Shuttle operations</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 -0500</pubDate>
+      <enclosure url="https://static.conocophillips.com/files/spiritnow/wide-med-mt-full-team-shot-2026edited.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://static.conocophillips.com/files/spiritnow/wide-med-mt-full-team-shot-2026edited.jpg" medium="image" />
+      <media:thumbnail url="https://static.conocophillips.com/files/spiritnow/wide-med-mt-full-team-shot-2026edited.jpg" />
+    </item>
     <item>
       <title>Anchored in excellence for 110 years</title>
       <link>https://www.conocophillips.com/spiritnow/story/polar-tankers-anchored-in-excellence-for-110-years/</link>
